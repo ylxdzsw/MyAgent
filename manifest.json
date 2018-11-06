@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "MyAgent",
+  "version": "0.1",
+
+  "description": "Personal all-in-one Chrome externsion",
+  "author": "ylxdzsw@gmail.com",
+
+  "icons": {
+    "100": "icon.png"
+  },
+
+  "content_scripts": [{
+    "matches": ["*://*.github.com/*"],
+    "css": ["no-emoji.css"]
+  }]
+}
