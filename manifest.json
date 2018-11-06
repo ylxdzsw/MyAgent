@@ -13,5 +13,9 @@
   "content_scripts": [{
     "matches": ["*://*.github.com/*"],
     "css": ["no-emoji.css"]
+  }, {
+    "matches": ["http://192.168.1.160/psprsubm.htm"],
+    "js": ["pcl-printer.js"],
+    "run_at": "document_end"
   }]
 }
