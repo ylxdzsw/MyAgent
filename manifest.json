@@ -17,5 +17,10 @@
     "matches": ["http://192.168.1.160/psprsubm.htm"],
     "js": ["pcl-printer.js"],
     "run_at": "document_end"
+  }, {
+    "matches": ["https://www.coursera.org/learn/*"],
+    "css": ["coursera.css"],
+    "js": ["audio-amplification.js"],
+    "run_at": "document_end"
   }]
 }
