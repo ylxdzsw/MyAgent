@@ -7,7 +7,7 @@ setInterval(() => {
 
         const ctx = new AudioContext
         const gain_node = ctx.createGain()
-        gain_node.gain.value = 3
+        gain_node.gain.value = 2
         const source = ctx.createMediaElementSource(video)
         source.connect(gain_node)
         gain_node.connect(ctx.destination)
