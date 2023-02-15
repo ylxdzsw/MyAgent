@@ -1,5 +1,5 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "MyAgent",
   "version": "0.1",
 
@@ -12,11 +12,7 @@
 
   "content_scripts": [{
     "matches": ["*://*.github.com/*"],
-    "css": ["no-emoji.css"]
-  }, {
-    "matches": ["http://192.168.1.160/psprsubm.htm"],
-    "js": ["pcl-printer.js"],
-    "run_at": "document_end"
+    "css": ["github.css"]
   }, {
     "matches": ["https://www.coursera.org/learn/*"],
     "css": ["coursera.css"],

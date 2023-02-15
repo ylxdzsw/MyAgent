@@ -3,7 +3,6 @@ MyAgent
 
 feature list:
 
-- no-emoji.css: remove the annoying stupid emojis all over the github
-- pcl-printer.js: set default config for the printer
+- github.css: remove the annoying stupid emojis all over the github and overide the ugly font
 - coursera.css: disable the stupid click-to-jump transcript
-- audio-amplification: double the audio volume for coursera
+- audio-amplification.js: double the audio volume in a page
